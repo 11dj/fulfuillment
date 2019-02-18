@@ -1,0 +1,24 @@
+.circle {
+    height: 200px;
+    width: 200px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    border-radius: 50%; /* may require vendor prefixes */
+    background: orange;
+}
+
+@media only screen and (max-width: 992px) {
+    .circle {
+        height: 150px;
+        width: 150px;
+    }
+}   
+
+@media only screen and (max-width: 768px) {
+    .circle {
+        height: 110px;
+        width: 110px;
+    }
+}

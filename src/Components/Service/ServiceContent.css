@@ -1,0 +1,33 @@
+.serviceContent {
+    margin: 3em 0;
+}
+
+.serviceCard {
+    text-align: center;
+    margin: 0;
+}
+
+.serviceCard img{
+    text-align: center;
+    width: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+    .serviceCard .serviceText {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .serviceContent h1 {
+        font-size: 1em;
+    }
+
+    .serviceContent .serText {
+        text-align: center;
+    }
+
+    .serviceCard img {
+        width:40%;
+    }
+}

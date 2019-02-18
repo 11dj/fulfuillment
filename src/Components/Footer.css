@@ -1,0 +1,12 @@
+.footer {
+    color: white;
+    background-color: rgb(224, 167, 146);
+}
+
+.footer .quote {
+    text-align: center;
+}
+
+.footer .info {
+    text-align: center;
+}

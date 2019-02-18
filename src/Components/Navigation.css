@@ -1,0 +1,27 @@
+.container {
+    padding: 1em;
+}
+
+.colNav {
+    text-align: center;
+}
+
+.drop {
+    visibility: hidden;
+    display: none;
+}
+
+.dropCol {
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .drop {
+        display: block;
+        visibility: visible;
+    }
+    .navi {
+        display: none;
+        visibility: hiddden;
+    }
+}

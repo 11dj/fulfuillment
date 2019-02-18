@@ -1,0 +1,43 @@
+.contact {
+    background-color: rgb(224, 132, 98);
+    margin: 2em 0;
+    color: white;
+    padding-bottom: 1em;
+}
+.contact .fm {
+    background-color: rgba(223, 223, 223, 0.5);
+    margin: 0 1em;
+}
+
+.text{
+   padding-top: 1em;
+    text-align: center;
+}
+
+.input {
+    margin: 0px 45px;
+    padding:0px 20%;
+    text-align: center;
+}
+
+.input2 {
+    margin: 0px 45px;
+}
+
+.button {
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .contact h1, .contact .label{
+        font-size: 1em;
+    }
+
+    .contact .input {
+        padding: 0.5em;
+    }
+
+    .button button{
+        font-size: 0.8em;
+    }
+}

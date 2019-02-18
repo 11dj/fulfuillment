@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navigation from './Components/Navigation';
+import TopPic from './Components/TopPic';
+import Content1 from './Components/Content1';
+import VDOContent from './Components/VDOContent';
+import ServiceContent from './Components/Service/ServiceContent';
+import ImageCarousel from './Components/ImageCarousal';
+import Circle from './Components/Circle';
+import FormContact from './Components/FormContact';
+import Footer from './Components/Footer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Navigation />
+        <TopPic />
+        <Content1 />
+        <VDOContent />
+        <ServiceContent />
+        <ImageCarousel />
+        <Circle />
+        <FormContact />
+        <Footer />
       </div>
     );
   }

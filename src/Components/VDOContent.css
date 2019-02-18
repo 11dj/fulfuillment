@@ -1,0 +1,48 @@
+.vdoCol {
+    padding-right: 0;
+}
+
+.orangeBox {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.orangeBox img {
+    height: 250px;
+    width: 100%;
+    z-index: -1;
+}
+
+.vdo {
+    width: 100%;
+}
+
+.vdo iframe {
+    height: 500px;
+}
+
+@media only screen and (max-width: 992px) {
+    .orangeBox img{
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .orangeBox img{
+        height: 100px;
+    }
+
+    .vdo iframe {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .orangeBox img{
+        height: 50px;
+    }
+
+    .vdo iframe {
+        height: 250px;
+    }
+}
