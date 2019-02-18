@@ -12,12 +12,37 @@
     width: 50%;
 }
 
+.serviceContent .wrapCard {
+    padding: 1em;
+}
 @media only screen and (max-width: 992px) {
     .serviceCard .serviceText {
         font-size: 0.9em;
     }
+
+    .serviceContent .wrapCard {
+        padding: 2em;
+    }
+
+    .serviceCard img {
+        width:40%;
+    }
+
+    
 }
 
+@media only screen and (max-width: 768px) {
+
+    .serviceContent .wrapCard {
+        width: 100%;
+        text-align: center;
+    }
+
+    .serviceCard {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
 @media only screen and (max-width: 576px) {
     .serviceContent h1 {
         font-size: 1em;
@@ -27,7 +52,4 @@
         text-align: center;
     }
 
-    .serviceCard img {
-        width:40%;
-    }
 }

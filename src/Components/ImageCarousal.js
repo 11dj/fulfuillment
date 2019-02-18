@@ -33,10 +33,10 @@ class ImageCarousal extends React.Component {
       pauseOnHover: true
     };
 
-    if (this.state.width <= 768) {
+    if (this.state.width <= 992) {
       settings.slidesToShow = 2;
     } 
-    if (this.state.width <= 576) {
+    if (this.state.width <= 768) {
       settings.slidesToShow = 1;
     } 
 

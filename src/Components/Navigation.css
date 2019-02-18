@@ -2,8 +2,18 @@
     padding: 1em;
 }
 
+.navi .orangeTop {
+    background-color: orange;
+    width:100%;
+    height: 20px;
+}
+
 .colNav {
-    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .drop {
@@ -13,6 +23,20 @@
 
 .dropCol {
     text-align: right;
+}
+
+.navi .logo {
+    text-align: center;
+    width: 100%;
+}
+
+.navi .logo img, .drop .logo img {
+    width: 7em;
+}
+@media only screen and (max-width: 992px) {
+    .navi .col, .navi .col-md-3 {
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {

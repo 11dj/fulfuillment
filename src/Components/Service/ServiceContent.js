@@ -32,14 +32,21 @@ class ServiceContent extends React.Component {
                 </Row>
 
                 <Row>
-                    <Col sm="12" md="4" style={{marginBottom:"1em"}}> 
-                        <CardService header = {this.state.header[0]} pic = {this.state.pic[0]} body = {this.state.body[0]} /> 
+                    <Col nd="12"lg="4" style={{marginBottom:"1em"}}> 
+
+                        <div className="wrapCard">
+                            <CardService header = {this.state.header[0]} pic = {this.state.pic[0]} body = {this.state.body[0]} /> 
+                        </div>
                     </Col>
-                    <Col sm="12" md="4" style={{marginBottom:"1em"}}> 
-                        <CardService header = {this.state.header[1]} pic = {this.state.pic[1]} body = {this.state.body[1]} /> 
+                    <Col md="12" lg="4" style={{marginBottom:"1em"}}> 
+                        <div className="wrapCard">
+                            <CardService header = {this.state.header[1]} pic = {this.state.pic[1]} body = {this.state.body[1]} /> 
+                        </div>
                     </Col>
-                    <Col sm="12" md="4" style={{marginBottom:"1em"}}> 
-                        <CardService header = {this.state.header[2]} pic = {this.state.pic[2]} body = {this.state.body[2]} /> 
+                    <Col nd="12" lg="4" style={{marginBottom:"1em"}}> 
+                        <div className="wrapCard">
+                            <CardService header = {this.state.header[2]} pic = {this.state.pic[2]} body = {this.state.body[2]} /> 
+                        </div>
                     </Col>
                 </Row>
             </div>

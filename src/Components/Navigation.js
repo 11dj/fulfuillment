@@ -23,7 +23,9 @@ class Navigation extends React.Component {
             <Container className="container">
                 <div className="drop">
                     <Row>
-                        <Col>Halo</Col>
+                        <Col><div className="logo">
+                                <img src="https://github.com/bkioshn/fulfuillment/blob/master/pic/S__1835016.jpg?raw=true" />
+                            </div></Col>
                         <Col className="dropCol">
                             <Dropdown direction="left" 
                             isOpen={this.state.dropdownOpen} 
@@ -44,15 +46,22 @@ class Navigation extends React.Component {
 
                 <div className="navi">
                     <Row>
-                        <Col className="colNav">Warehouse</Col>
-                        <Col className="colNav">Store</Col>
-                        <Col className="colNav">Pack</Col>
-                        <Col className="colNav" md="3">
-                            <img src="" />
+                        <Col>
+                            <div className="orangeTop"></div>
                         </Col>
-                        <Col className="colNav">Contact</Col>
-                        <Col className="colNav">About</Col>
-                        <Col className="colNav">FAQ</Col>
+                    </Row>
+                    <Row>
+                        <Col><div className="colNav"><p>Warehouse</p></div></Col>
+                        <Col><div className="colNav"><p>Store</p></div></Col>
+                        <Col><div className="colNav"><p>Pack</p></div></Col>
+                        <Col md="3">
+                            <div className="logo">
+                                <img src="https://github.com/bkioshn/fulfuillment/blob/master/pic/S__1835016.jpg?raw=true" />
+                            </div>
+                        </Col>
+                        <Col><div className="colNav"><p>Contact</p></div></Col>
+                        <Col><div className="colNav"><p>About</p></div></Col>
+                        <Col><div className="colNav"><p>FAQ</p></div></Col>
                     </Row>
                 </div>
 

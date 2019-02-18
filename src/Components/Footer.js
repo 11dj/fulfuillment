@@ -7,23 +7,34 @@ class Footer extends React.Component {
     render() {
         return(
             <div className="footer">
-                <Row>
-                    <Col xs={{ size: 1, offset: 4 }}>
-                        <div className="icon"><SocialIcon url="http://facebook.com"></SocialIcon></div>
-                    </Col>
-                    <Col xs="1"> 
-                        <div className="icon"><SocialIcon url="http://youtube.com"></SocialIcon></div>
+                <div className="social">
+                    <Row>
+                        <Col xs={{ size: 1, offset: 4 }}>
+                            <div className="icon"><SocialIcon url="http://facebook.com"></SocialIcon></div>
+                        </Col>
+                        <Col xs="1"> 
+                            <div className="icon"><SocialIcon url="http://youtube.com"></SocialIcon></div>
 
-                    </Col>
-                    <Col xs="1">
-                        <div className="icon"><SocialIcon url="http://twitter.com"></SocialIcon></div>
-                    </Col>
+                        </Col>
+                        <Col xs="1">
+                            <div className="icon"><SocialIcon url="http://twitter.com"></SocialIcon></div>
+                        </Col>
 
-                    <Col xs="1">
-                        <div className="icon"><SocialIcon url="http://instagram.com"></SocialIcon></div>
+                        <Col xs="1">
+                            <div className="icon"><SocialIcon url="http://instagram.com"></SocialIcon></div>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col mds={{ size: 1, offset: 5 }}>
+                            <div className="footerMenu">
+                                <p>Warehouse</p>
+                            </div>
+                        </Col>
 
-                    </Col>
-                </Row>
+                    </Row>
+
+                </div>
+
                 <Row>
                     <Col>
                         <div className="quote"><h1>"Some quote"</h1></div>
