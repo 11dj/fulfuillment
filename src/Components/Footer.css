@@ -1,9 +1,17 @@
 .footer {
+    background-color: rgb(107, 107, 107); 
+
     color: white;
 }
 
 .footer .social {
-    background-color: rgb(107, 107, 107); 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .social .icon {
+    padding: 10px;
 }
 
 .footer .quote {
@@ -12,4 +20,23 @@
 
 .footer .info {
     text-align: center;
+}
+
+.footer .footerMenu {
+    width: 100%;
+    text-align: center;
+}
+
+.footer .footerMenu a:link, 
+.footer .footerMenu a:visited,
+.footer .footerMenu a:active,
+.footer .footerMenu a {
+    color: white;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer .quote h1 {
+        font-size: 1em;
+    }
 }
